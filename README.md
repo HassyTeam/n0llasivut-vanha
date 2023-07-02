@@ -1,24 +1,19 @@
-# GeodeSDK website
-The source code for the GeodeSDK website.
+# n0lla nettisivut
 
-## Developing
+katsos poikani (tai tyttöni tai non binäärinen henkilö en välitä), en osaa tehdä readmiitä ni tässä tätä nyt ois
 
-To spin up a local version of the site, you first need to install all the dependencies. This is easily done by running:
+## Miksi?
 
-```bash
-npm i
-```
+en tiedä miksi
 
-Once the dependencies are done, you can now run:
+## Milloin?
 
-```bash
-npm run watch
-```
+sit ku jaksan
 
-to start a server that watches for changes in the script.
+## Ootko ihan okei?
 
-## Building
+en
 
-> Note: If you are just opening a PR for a change to the site, you don't need to worry about building the site.
+# TLDR; Miks ees tulit tänne
 
-First, make sure to install the dependencies (steps above). Then run `npm run build` to build the site.
+nää on muuten varastettu geodilta
