@@ -3,6 +3,9 @@
 @tailwind components;
 @tailwind utilities;
 
+@import url('https://fonts.googleapis.com/css2family=Anonymous+Pro:ital,wght@1,700&display=swap');
+
+
 html {
     height: 100%;
     overflow: hidden;
@@ -81,6 +84,10 @@ main > section > img:first-child {
 }
 
 /* General components */
+
+.page-title {
+  
+}
 
 h1 {
     @apply font-bold font-head md:text-5xl max-md:text-3xl;
