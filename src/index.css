@@ -89,6 +89,14 @@ main > section > img:first-child {
   font-family: 'Anonymous Pro', monospace;
 }
 
+.small {
+  font-size: 15px;
+}
+
+.evensmaller {
+  font-size: 5px;
+}
+
 h1 {
     @apply font-bold font-head md:text-5xl max-md:text-3xl;
 }
