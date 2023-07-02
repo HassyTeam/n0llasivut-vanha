@@ -90,11 +90,11 @@ main > section > img:first-child {
 }
 
 .small {
-  font-size: 15px;
+  font-size: 6px;
 }
 
 .evensmaller {
-  font-size: 5px;
+  font-size: 2px;
 }
 
 h1 {
