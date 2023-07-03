@@ -1,6 +1,6 @@
 # n0lla nettisivut
 
-katsos poikani (tai tyttöni tai non binäärinen henkilö en välitä), en osaa tehdä readmiitä ni tässä tätä nyt ois
+katsos poikani (tai tyttöni tai non binäärinen henkilö en välitä), en osaa tehdä readmiitä ni tässä tätä nyt jostain syystä silti ois
 
 ## Miksi?
 
