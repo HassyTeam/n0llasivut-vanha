@@ -16,4 +16,4 @@ en
 
 # TLDR; Miks ees tulit tänne
 
-nää on muuten varastettu geodilta
+nää on muuten forkatttu geodilta
