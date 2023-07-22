@@ -40,12 +40,12 @@
     <div class="svg-bg"></div>
     <div class="absolute hidden p-8 bg-gray-darker rounded-3xl flex-col gap-4 justify-center items-center top-20 arrow-before" id="install-popup">
       <h2 class="text-yellow font-head text-xl">MITEN LIITYN!?!?!?!?!</h2>
-      <text class="inline text-light text-sm">Paina tätä</text>
-      <img src="ohje1.png" alt="">
-      <text class="inline text-light text-sm">Paina tätä</text>
-      <img src="ohje2.png" alt="">
-      <text class="inline text-light text-sm">Paina tätä</text>
-      <img src="ohje3.png" alt="">
+      <text class="inline text-light text-base">Avaa mainkläft ja paina "Multiplayer" tai "Moninpeli"</text>
+      <img src="ohje1.png" alt="" class="w-1/4">
+      <text class="inline text-light text-base">n0lla saattaa ilmestyä automaattisesti, tai paina "Add Server (Lisää palvelin)"</text>
+      <img src="ohje2.png" alt="" class="w-1/4">
+      <text class="inline text-light text-base">Kirjoita nimeksi n0lla tai jotain muuta ei kiinnosta, ja laita IP-osoitteeksi 192.168.*.*!</text>
+      <img src="ohje3.png" alt="" class="w-1/4">
     </div>
 
     <header class="sm:p-20 max-sm:p-6 mt-20 flex flex-col items-center">
@@ -177,36 +177,6 @@
     <script defer>
         feather.replace();
         hljs.highlightAll();
-
-        fetch('https://api.github.com/repos/geoade-sdk/installer/releases/latest')
-            .then(r => r.json())
-            .then(json => {
-                const opts = document.querySelector('#install-options');
-                opts.innerHTML = '';
-                for (const asset of json.assets) {
-                    let platformName;
-                    if (asset.name.toLowerCase().includes('mac')) {
-                        platformName = 'macOS';
-                    }
-                    else if (asset.name.toLowerCase().includes('win')) {
-                        platformName = 'Windows';
-                    }
-                    else continue;
-                    
-                    let elem = document.createElement('a');
-                    elem.classList.add(
-                        'button', 'has-icon', 'border-solid',
-                        'border-2', 'border-gray-light'
-                    );
-                    elem.href = asset.browser_download_url;
-                    elem.innerHTML = `${feather.icons.box.toSvg()}Download for ${platformName}`;
-                    opts.appendChild(elem);
-                }
-            })
-            .catch(_ => {
-                document.querySelector('#install-options').innerHTML = 
-                    'Unable to get play options. Please check your internet connection';
-            });
 
         /*if (navigator.userAgent.match(/android|iphone|kindle|ipad/i)) {
             document.getElementById('install').remove();
