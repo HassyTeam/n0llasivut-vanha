@@ -1,5 +1,5 @@
 [debug sivut](https://ultimatexilliam.github.io/n0llasivut)
-# NÄMÄ SIVUT IVAT VANHAT 8ja huonot). ÄLÄ KÄYTÄ NÄITÄ!!
+# NÄMÄ SIVUT OVAT VANHAT (ja huonot). ÄLÄ KÄYTÄ NÄITÄ!!
 
 # n0lla nettisivut
 
