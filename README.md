@@ -1,5 +1,7 @@
-[debug sivut](https://ultimatexilliam.github.io/n0llasivut)
+[debug sivut (älä näitäkään käytä)](https://hassyteam.com/n0llasivut-vanha/)
 # NÄMÄ SIVUT OVAT VANHAT (ja huonot). ÄLÄ KÄYTÄ NÄITÄ!!
+### uudet sivut tulee sit [tänne](https://github.com/HassyTeam/n0llasivut) jos tulee
+täs on se vanha m.merea,d
 
 # n0lla nettisivut
 
